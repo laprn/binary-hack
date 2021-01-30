@@ -4,5 +4,5 @@
 int main(){
 	char str_a[20];
 	strcpy(str_a, "Hello, world!\n");
-	printf(str_a);
+	printf("%s", str_a);
 }
